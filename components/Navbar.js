@@ -1,4 +1,4 @@
-export default Navbar = () => {
+const Navbar = () => {
   return (
     <header class="text-gray-600 body-font">
       <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
@@ -41,3 +41,5 @@ export default Navbar = () => {
     </header>
   );
 };
+
+export default Navbar;

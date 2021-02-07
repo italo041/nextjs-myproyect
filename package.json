@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "next": "10.0.6",
+    "postcss": "^8.2.5",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^6.7.0",
     "react": "17.0.1",

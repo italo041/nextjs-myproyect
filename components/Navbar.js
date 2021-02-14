@@ -49,16 +49,16 @@ const Navbar = () => {
           style={{display: showMe? "none" : "flex" }}
           className="hidden flex-col w-full items-end lg:w-auto lg:flex lg:flex-row md:ml-auto flex-wrap lg:items-center text-base justify-center  "
         >
-          <a onClick={toggle} className="mr-5 hover:text-gray-900" href="#presentacion">
+          <a className="mr-5 hover:text-gray-900" href="#presentacion">
             ¿Quien soy?
           </a>
-          <a onClick={toggle} className="mr-5 hover:text-gray-900" href="#webs">
+          <a className="mr-5 hover:text-gray-900" href="#webs">
             Webs
           </a>
-          <a onClick={toggle} className="mr-5 hover:text-gray-900" href="#experiencia">
+          <a className="mr-5 hover:text-gray-900" href="#experiencia">
             Experiencia Profesional
           </a>
-          <a onClick={toggle} className="mr-5 hover:text-gray-900">Fourth Link</a>
+          <a className="mr-5 hover:text-gray-900">Fourth Link</a>
         </nav>
       </div>
     </header>
